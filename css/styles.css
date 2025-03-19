@@ -550,6 +550,10 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-custom-btn {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-close-btn {
   position: absolute;
   right: 24px;
@@ -571,13 +575,13 @@ img {
 }
 
 .modal-close-btn:hover {
+  border: none;
   background-color: #404bbf;
   stroke: #fff;
   fill: #fff;
 }
 
 .modal-close-btn:focus {
-  border: none;
   background-color: #404bbf;
   stroke: #fff;
   fill: #fff;
@@ -596,7 +600,7 @@ img {
 }
 
 .callback-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .callback-field-label {
@@ -620,6 +624,7 @@ img {
   width: 360px;
   height: 40px;
   background-color: transparent;
+  outline: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -710,7 +715,7 @@ img {
   + .callback-label-accept
   .callback-form-custom-checkbox {
   background-color: #404bbf;
-  border-color: transparent;
+  fill: #f4f4fd;
   border: none;
 }
 
