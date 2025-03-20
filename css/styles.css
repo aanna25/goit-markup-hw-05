@@ -516,6 +516,11 @@ img {
   border: none;
 }
 
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+}
+
 .backdrop {
   position: fixed;
   left: 0;
