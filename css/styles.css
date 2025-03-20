@@ -474,7 +474,7 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  padding-left: 16px;
+  padding: 8px 16px;
 
   font-weight: 400;
   font-size: 12px;
@@ -499,7 +499,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+
   border-radius: 4px;
   padding: 8px 24px;
   gap: 16px;
@@ -536,7 +536,7 @@ img {
 
 .modal {
   position: absolute;
-
+  padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -645,6 +645,10 @@ img {
 
 .callback-input:focus + .callback-input-icon {
   fill: #4d5ae5;
+}
+
+.callback-form-comment {
+  margin-bottom: 16px;
 }
 
 .callback-comment {
